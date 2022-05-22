@@ -4,7 +4,7 @@
   "description": "A clean node api for polls",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
